@@ -116,9 +116,9 @@ module-margin-right = 0
 font-0 = "terminus:size=10;2"
 font-1 = "terminus:size=25;3"
 
-font-2 = "Font Awesome 5 Free:style=Regular:pixelsize=8;1"
-font-3 = "Font Awesome 5 Free:style=Solid:pixelsize=8;1"
-font-4 = "Font Awesome 5 Brands:pixelsize=8;1"
+font-2 = "Font Awesome 4 Free:style=Regular:pixelsize=8;1"
+font-3 = "Font Awesome 4 Free:style=Solid:pixelsize=8;1"
+font-4 = "Font Awesome 4 Brands:pixelsize=8;1"
 
 
 modules-left = i3 xwindow 
