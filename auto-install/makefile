@@ -3,7 +3,7 @@ start: install
 
 .PHONY: install
 install: ## install all stuff
-		sudo pacman -S i3-wm --noconfirm
+		sudo pacman -S i3-gaps --noconfirm
 		sudo pacman -S i3lock --noconfirm
 		sudo pacman -S i3status --noconfirm
 		sudo pacman -S i3blocks --noconfirm
