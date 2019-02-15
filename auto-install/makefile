@@ -12,7 +12,7 @@ install: ## install all stuff
 		yaourt -S polybar --noconfirm
 		yaourt -S rofi --noconfirm
 		yaourt -S termite --noconfirm
-		yaourt -S ttf-font-awesome-5  --noconfirm
+		yaourt -S ttf-font-awesome  --noconfirm
 		yaourt -S ttf-font-awesome-4  --noconfirm
 		yaourt -S terminus-font --noconfirm
 		sudo pacman -S slack-desktop --noconfirm
