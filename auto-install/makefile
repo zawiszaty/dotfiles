@@ -15,10 +15,10 @@ install: ## install all stuff
 		yaourt -S ttf-font-awesome  --noconfirm
 		yaourt -S ttf-font-awesome-4  --noconfirm
 		yaourt -S terminus-font --noconfirm
-		sudo pacman -S slack-desktop --noconfirm
-		sudo pacman -S google-chrome --noconfirm
-		sudo pacman -S jetbrains-toolbox --noconfirm
-		sudo pacman -S code --noconfirm
+		yaourt -S slack-desktop --noconfirm
+		yaourt -S google-chrome --noconfirm
+		yaourt -S jetbrains-toolbox --noconfirm
+		yaourt -S code --noconfirm
 		sudo pacman -S zsh --noconfirm
 		sudo pacman -S compton --noconfirm
 		sudo pacman -S scrot --noconfirm
