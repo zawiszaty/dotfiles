@@ -18,6 +18,12 @@ sudo chsh -s /bin/zsh root
 sudo chsh -s /bin/zsh $(user)
 sudo chmod -x ~/.config/polybar/scripts/check-all-updates.sh
 sudo chmod -x ~/.config/polybar/scripts/pavolume.sh
+echo 'alias dotfiles="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"' >> $HOME/.zshrc
+source ~/.zshrc
+echo "dotfiles" >> .gitignore
+git clone --bare https://github.com/zawiszaty/dotfilest $HOME/dotfiles
+dotfiles checkout
+dotfiles config --local status.showUntrackedFiles no
 ```
 ### Where did I get my inspiration?
 - https://github.com/michal-franc/dotfiles
