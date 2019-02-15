@@ -22,6 +22,8 @@ install: ## install all stuff
 		sudo pacman -S zsh --noconfirm
 		sudo pacman -S compton --noconfirm
 		sudo pacman -S scrot --noconfirm
+		sudo pacman -S docker --noconfirm
+		sudo pacman -S docker-compose --noconfirm
 		sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 		sudo chsh -s /bin/zsh root 
 		sudo chsh -s /bin/zsh $USER
