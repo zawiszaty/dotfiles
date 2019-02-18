@@ -1,5 +1,5 @@
 # My awesome Linux conf
-![Image of linux](https://github.com/zawiszaty/dotfiles/blob/master/screenshots/screenshots/2019-02-18-15:54:43-screenshot.png)
+![Image of linux](https://github.com/zawiszaty/dotfiles/blob/master/screenshots/2019-02-18-15:54:43-screenshot.png)
 ![Image of linux](https://github.com/zawiszaty/dotfiles/blob/master/screenshots/2019-02-18-15:55:18-screenshot.png)
 ### What I use:
 * i3-gaps
